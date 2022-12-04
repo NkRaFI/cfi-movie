@@ -1,0 +1,16 @@
+@media(max-width: 1200px) {
+    .card-width{
+        width: 19rem;
+    }
+}
+
+@media((max-width: 768px)) {
+    .card-width{
+        width: 14rem;
+    }
+    .slider-width{
+        width: 91%;
+        margin-right: auto;
+        margin-left: auto;
+    }
+}

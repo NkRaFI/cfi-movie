@@ -1,0 +1,365 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+
+/* createProjectFrom style  */
+
+.Project_form_Container{
+    height: 300px;
+    padding: 1rem;
+    overflow-y: scroll;
+}
+
+
+
+
+
+
+
+/* stepfrom progressbar style  */
+.indexedStep {
+    color: black;
+    width: 20px;
+    height: 20px;
+    font-size: 16px;
+    background-color: rgba(211, 211, 211, 0.8);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .indexedStep.accomplished {
+    background-color: rgb(212, 213, 214);
+  }
+
+
+
+/*-------------- form style  -----------*/
+.form_cover{
+    border-top-right-radius: 10%;
+    border-bottom-right-radius: 10%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    height: 85vh;
+}
+
+.uplead_form{
+    background-color: rgb(216, 216, 216);
+}
+.from_stage {
+    padding: 50px 35px 30px 40px;
+}
+
+.from_stage div{
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+.form_container{
+    margin-top: 75px;
+    width: 95%;
+    margin-left: -80px;
+    background-color: rgb(219, 221, 221);
+    margin-bottom: 20px;
+    height: 70vh;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* all project page style  */
+.all_project{
+    background-color: antiquewhite;
+    min-height: 100vh;
+}
+
+.accordion-button:not(.collapsed) {
+    background-color: white !important;
+    box-shadow: none !important;
+}
+
+.accordion-button:focus {
+    z-index: 3;
+    border-color: white;
+    outline: 0;
+    box-shadow: none !important;
+}
+
+.accordian-items .form-control:focus {
+    box-shadow: 0 0 0 0;
+}
+
+.load-more{
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+/* Reg  Page style  */
+.reg-bg{
+    background-color: rgb(236, 234, 234);
+}
+
+.reg-img{ 
+    width: 100%;
+    height: 100%;
+    border-top-left-radius: 10%;
+    border-bottom-left-radius: 10%;
+}
+
+.reg-width{
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.reg-bg .inputs{
+    padding: .6rem;
+}
+/* .reg-background{
+    background-color: rgb(212, 212, 212);
+    height: 100vh;
+    padding: 0px;
+}
+
+.reg-modal{
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 12%;
+    padding: 20px;
+    border-radius: 5px;
+    width: 40%;
+} */
+
+
+
+
+/* main slider style  */
+
+.slider-width{
+    width: 92%;
+    margin-right: auto;
+    margin-left: auto;
+}
+.slider-container{
+    height: 150px;
+    padding-right: 8px;
+    padding-left: 8px;
+    margin: 10px 20px;
+    width: 250px;
+    overflow: hidden;
+}
+
+/* .slick-active .slider-container img {
+    transform: scale(1);
+    z-index: 2;
+    position: relative;
+} */
+
+.slick-prev:before, .slick-next:before {
+    font-family: 'slick';
+    font-size: 25px !important;
+    line-height: 1;
+    opacity: .75;
+    background-color: white !important;
+    color: black !important;
+  
+}
+
+
+
+
+
+
+
+
+/* profile page style  */
+.profile_bg{
+    background-color: white;
+    height: 120vh;
+}
+
+.profile_header{
+    height: 150px;
+    background: rgb(158,158,158);
+    background: linear-gradient(0deg, rgba(158,158,158,1) 0%, rgba(202,202,204,1) 44%, rgba(255,255,255,1) 100%);
+}
+
+.profile-container{
+    background-color: white;
+    padding: 15px;
+    border-radius: .5rem .5rem 0rem 0rem !important;
+    position: relative;
+    margin-top: -50px;
+    z-index: 2;
+}
+
+.profile-edit{
+    position: relative;
+    margin-top: -20px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.profile-detail-container {
+    background-color: white;
+    padding: 15px;
+    border-radius: .5rem .5rem 0rem 0rem !important;
+    position: relative;
+    margin-top: -50px;
+    z-index: 2;
+}
+
+
+
+
+/* project detail style  */
+
+.project-profile-container{
+    background-color: white;
+    padding: 20px;
+    border-radius: 2rem 0rem 0rem 0rem !important;
+    position: relative;
+    margin-top: -80px;
+    z-index: 2;
+}
+
+.project-social-container{
+    background-color: white;
+    padding: 30px;
+    border-radius: 0rem 2rem 0rem 0rem !important;
+    position: relative;
+    margin-top: -80px;
+    z-index: 2;
+}
+
+
+.project-detail-container{
+    background-color: white;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.project-detail-container .nav-tabs .nav-link {
+    color: #484545;
+    font-weight: bold;
+    font-size: 14px;
+    border: none;
+}
+
+.project-detail-container .nav-tabs .nav-link.active {
+    color: red;
+    border-bottom: 3px solid;
+}
+
+.project-detail-container .cast-people{
+    height: 40px;
+    width: auto;
+}
+
+
+
+
+
+/* Caurosel style  */
+.thumbnil-img{
+    height: 45vh;
+    background-size: cover;
+}
+
+.carousel-indicators {
+    display: none !important;
+}
+
+
+
+
+/* Navbar style  */
+
+.navbar-width{
+    padding: 2px;
+    margin-right: 30px !important;
+    margin-left: 30px !important;
+}
+
+.form-inputs{
+    position:relative;
+}
+.form-inputs .form-control{
+    height:45px; 
+}
+
+.form-inputs .form-control:focus{
+    box-shadow:none;
+    border:1px solid #000;
+}
+
+.form-inputs .bx-search{
+    position:absolute;
+    right:10px;
+    top:15px;
+}
+
+.li-margin{
+    margin-right: 10px;
+}
+
+.canvas-items{
+    flex-direction: column;
+}
+
+.canvas-items a{
+    text-decoration: none;
+    color: darkslategray;
+    font-size: 20px;
+}
+
+
+
+/* login page  */
+.login-bg{
+    background-color: rgb(236, 234, 234);
+
+}
+
+.login-img{ 
+    width: 100%;
+    height: 100%;
+    border-top-left-radius: 10%;
+    border-bottom-left-radius: 10%;
+}
+
+.login-width{
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.input-container{
+    background-color: white;
+    border-top-right-radius: 10%;
+    border-bottom-right-radius: 10%;
+}
+
+.login-bg .inputs{
+    padding: 1rem;
+}
+
+.social-authentication{
+    cursor: pointer;
+}
